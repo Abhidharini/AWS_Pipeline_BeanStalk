@@ -95,7 +95,7 @@ font-family:Georgia;
     
 <div class="profile-container">
 	<div class="profile-picture">
-       <center> <img src="rini.jpg" alt="Profile Picture"></center>
+       
 
 
     <div class="bio-data">
