@@ -24,42 +24,34 @@ welcome = """
 <title>Profile</title>
 <link rel="stylesheet" href="styles.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      text-align: center;
-    }
-    .bio-data {
-      margin-top: 20px;
-    }
-    .label {
-      font-weight: bold;
-    }
-    table {
-      width: 100%;
-      margin-top: 10px;
-      border-collapse: collapse;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px;
-      text-align: left;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-    .achievements {
-      margin-top: 20px;
-    }
+    img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+}
+.profile-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #D4E2D4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	display:flex;
+}
+.profile-picture{
+flex:1;
+padding:20px;
+}
+
+.profile-info{
+flex:2;
+padding:20px;
+font-size:20;
+font-family:Georgia;
+}
+
   </style>
 </head>
 <body>
