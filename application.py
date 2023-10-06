@@ -19,8 +19,6 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 welcome = """
-
-
 <html>
 <head>
 <title>Profile</title>
