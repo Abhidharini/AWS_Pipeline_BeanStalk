@@ -19,93 +19,116 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 welcome = """
-<!DOCTYPE html>
-<html lang="en">
+
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jenish Revaldo C - Data Analyst Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 28px;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin-top: 10px;
-        }
-
-        h3 {
-            font-size: 20px;
-            margin-top: 10px;
-        }
-
-        p {
-            margin: 5px 0;
-        }
-
-        .contact {
-            margin-top: 20px;
-        }
-
-        .education, .projects, .languages, .interests {
-            margin-top: 30px;
-        }
-    </style>
+<title>Profile</title>
+<link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    .bio-data {
+      margin-top: 20px;
+    }
+    .label {
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+      margin-top: 10px;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .achievements {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Jenish Revaldo C   -  Data Analyst</h1>
-  
-    <p>Driven and adaptable Data Analyst with a passion for continuous learning and leadership. Skilled in mathematics, statistics, and programming, I excel at solving complex problems and extracting valuable insights from data. Committed to staying updated on industry trends to deliver impactful data-driven solutions.</p>
+
     
-    <div class="contact">
-        <h2>Contact Information</h2>
-        <p>Email: jenishrev0603@gmail.com</p>
-        <p>Phone: 7358941365</p>
-        <p>Location: Kanyakumari, India</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/jenish-revaldo-c-004670245">linkedin.com/in/jenish-revaldo-c-004670245</a></p>
-        <p>GitHub: <a href="https://github.com/JenishRevaldo">github.com/JenishRevaldo</a></p>
+<div class="profile-container">
+	<div class="profile-picture">
+       <center> <img src="rini.jpg" alt="Profile Picture"></center>
+
+
+    <div class="bio-data">
+      <div class="label">Name:</div>
+      <div>Abhidharini.R</div>
+    </div>
+    <div class="bio-data">
+      <div class="label">Age:</div>
+      <div>23</div>
+    </div>
+    <div class="bio-data">
+      <div class="label">Address:</div>
+      <div>Cuddalore</div>
+    </div>
+    <div class="bio-data">
+      <div class="label">Email:</div>
+      <div>abhidharini27@gmail.com</div>
+    </div>
+    <div class="bio-data">
+      <div class="label">Phone:</div>
+      <div>8754086301</div>
     </div>
 
-    <div class="education">
-        <h2>Education</h2>
-        <h3>B.Sc. Mathematics</h3>
-        <p>Loyola College</p>
-        <p>06/2019 - 04/2022, Chennai</p>
-        <p>Graduate with a first-class degree.</p>
-
-        <h3>M.Sc. Data Science</h3>
-        <p>Loyola College</p>
-        <p>06/2022 - Present, Chennai</p>
-        <p>Pursuing degree in data Science with a commendable CGPA.</p>
+    <!-- Education Table -->
+    <div class="bio-data">
+      <div class="label">Education:</div>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Bachelor's</td>
+          <td>Thiruvalluvar University</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>HSC</td>
+          <td>ST.Anne's</td>
+          <td>2019</td>
+        </tr>
+      </table>
     </div>
 
-    <div class="projects">
-        <h2>Projects</h2>
-       <p>IPL Analysis through Power BI</p>
-        <p>Supervised-Unsupervised integration for Breast Cancer diagnosis</p>
+    <!-- Achievements -->
+    <div class="achievements">
+      <div class="label">Achievements:</div>
+      <ul>
+        <li>Won Gold Medal in INFOMATRIx</li>
+        <li>Got RAJIYA PURASHAKAR award in bharath scouts and guides</li>
+      </ul>
     </div>
 
-    <div class="languages">
-        <h2>Languages</h2>
-        <p>Tamil - Native or Bilingual Proficiency</p>
-        <p>English - Full Professional Proficiency</p>
-    </div>
+  </div>
+	</div>
 
-    <div class="interests">
-        <h2>Interests</h2>
-        <p>Data Analysis</p>
-        <p>Predictive Modelling</p>
-        <p>Natural Language Processing</p>
-        <p>Data Visualization</p>
+
     </div>
-</body>
 </html>
 """
 
